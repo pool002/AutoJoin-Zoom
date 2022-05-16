@@ -40,6 +40,11 @@ def signin(id):
     gui.moveTo(1019,669,2)
     gui.click()
 
+    #Take some Time to join then minimize
+    time.sleep(20)
+    gui.moveTo(1470, 113,1)
+    gui.click()
+
     #Passcode and join                                  #Commenting it out as pw is not required
     # pass_btn=gui.locateCenterOnScreen('passcode.png')
     # gui.moveTo(pass_btn)
