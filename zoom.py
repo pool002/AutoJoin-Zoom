@@ -20,7 +20,7 @@ def signin(id):
         #Find and launch zoom on windows
         operating_system='w'
         print('Windows Detected:')
-        machineName='Rahul'                             #Change this to the name of your computer
+        machineName=''                             #Change this to the name of your computer
         sub.Popen([rf'C:\Users\{machineName}\AppData\Roaming\Zoom\bin\Zoom.exe'])
 
     #Time breaks to wait for app to run
